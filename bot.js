@@ -10,7 +10,7 @@ var prefix = "T";
 
 
     const devs = ["451227053472219147"];
-const adminprefix = ["$"];
+const adminprefix = ["H"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
@@ -47,4 +47,4 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 
 
 
-client.login("NDUxMjI3MDUzNDcyMjE5MTQ3.Dsi1Kw.aQ-6HUOkAkQMrEI9RK8ifSmyDik");
+client.login("NDUxMjI3MDUzNDcyMjE5MTQ3.DsydAw.dJmhuU9AFuH-ru3EdDwAPx_8FbQ");
